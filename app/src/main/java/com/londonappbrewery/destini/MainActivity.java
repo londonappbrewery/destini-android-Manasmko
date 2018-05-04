@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
                         mIndex =1;
                     } else if(mIndex==1){
                         mStoryTextView.setText(R.string.T6_End);
-                        mtopButton.setText("Game Over!");
-                        mBottomButton.setText("Game Over!");
+                        mtopButton.setVisibility(View.GONE);
+                        mBottomButton.setVisibility(View.GONE);
                         mIndex=999;
                     } else if(mIndex==2){
                         mStoryTextView.setText(R.string.T3_Story);
@@ -60,13 +60,13 @@ public class MainActivity extends AppCompatActivity {
                         mIndex=2;
                     } else if(mIndex == 1){
                         mStoryTextView.setText(R.string.T5_End);
-                        mtopButton.setText("Game Over!");
-                        mBottomButton.setText("Game Over!");
+                        mtopButton.setVisibility(View.GONE);
+                        mBottomButton.setVisibility(View.GONE);
                         mIndex=999;
                     }else if(mIndex==2){
                         mStoryTextView.setText(R.string.T4_End);
-                        mtopButton.setText("Game Over!");
-                        mBottomButton.setText("Game Over!");
+                        mtopButton.setVisibility(View.GONE);
+                        mBottomButton.setVisibility(View.GONE);
                         mIndex=999;
 
                     }
